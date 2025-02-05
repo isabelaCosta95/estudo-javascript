@@ -1,0 +1,19 @@
+// Exemplo de operador ternário
+const estaChovendo = true;
+
+console.log('Está Chovendo?', estaChovendo? 'Sim' : 'Não');
+
+// Outras formas de criar uma função
+
+//Armazenando em variável
+let somar = function (a,b){
+	return a + b;
+}
+
+// Arrow function
+let subtrair = (a,b) => {
+	return a - b;
+}
+
+// return implícito
+let multiplicar= (a,b) => a * b;
