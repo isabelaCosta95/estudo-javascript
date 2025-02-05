@@ -1,8 +1,2 @@
-Senteça de código:
--> 
-
-Debugar código:
-->
-
 Convensão de nome das variáveis
 -> primeira letra minúscula, demais maiúsculas
