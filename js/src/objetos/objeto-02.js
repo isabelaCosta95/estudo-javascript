@@ -9,6 +9,7 @@ const livro = {
     generos: ['Fantasia', 'Aventura', 'Ficção'],
     publicado: true,
     anoPublicacao: 1954,
+    generoPrincipal: function() { return this.generos[0]; }  // This acessa dados internos
 };
 
 console.log(`Título: ${livro.titulo}`);
@@ -22,3 +23,5 @@ if(livro.publicado) {
 
 console.log(JSON.stringify(livro));
 console.log(JSON.stringify(livro, null, 2)); // JSON Formatado
+
+console.log(`Gênero Principal: ${livro.generoPrincipal()}`);
