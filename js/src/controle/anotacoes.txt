@@ -1,0 +1,9 @@
+//Estrutura Indexada -> Para cada elemento é atribuido um índice
+
+const nomes = ['João', 'Maria', 'José'];
+console.log(nomes.length); // Tamanho do Array, nesse caso vai retornar 3
+
+console.log(nomes[0]);
+console.log(nomes[1]);
+console.log(nomes[2]);
+console.log(nomes[0]); // Vai retornar undefined
