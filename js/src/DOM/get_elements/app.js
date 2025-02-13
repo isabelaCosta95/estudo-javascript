@@ -8,3 +8,5 @@ document.getElementsByName('text_usuario')[0].value = "Isabela";
 
 // Altera conforme o Indice adicionado
 document.getElementsByTagName('p')[0].innerText = 'Mudando por Tags- mudança';
+
+console.log(document.getElementsByClassName('cor-do-texto'));
