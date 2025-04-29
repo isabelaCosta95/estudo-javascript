@@ -16,3 +16,9 @@ console.log(classe.outerHTML); // Aparece o elemento inteiro, inclusive o h1
 
 classe.innerText = "Novo Texto";
 classe.innerHTML = "Novo <i> Texto </i>";
+
+let imagem = document.querySelector("#noticia");
+imagem.src = "new_2.png";
+console.log(imagem.alt);
+
+document.querySelector("#titulo").innerHTML = imagem.alt;
